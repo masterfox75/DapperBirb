@@ -10,15 +10,15 @@ win_height = 720
 win_width = 550
 window = pygame.display.set_mode((win_width, win_height))
 
-bird_images = [pygame.image.load("assets/down.png").convert_alpha(),
-               pygame.image.load("assets/Untitled.png").convert_alpha(),
-               pygame.image.load("assets/up.png").convert_alpha()]
-skyline_image = pygame.image.load("assets/background.png").convert()
-ground_image = pygame.image.load("assets/ground.png").convert()
-top_pipe_image = pygame.image.load("assets/pipe_top.png").convert_alpha()
-bottom_pipe_image = pygame.image.load("assets/pipe_bottom.png").convert_alpha()
-game_over_image = pygame.image.load("assets/game_over.png").convert_alpha()
-start_image = pygame.image.load("assets/start.png").convert_alpha()
+bird_images = [pygame.image.load("down.png").convert_alpha(),
+               pygame.image.load("Untitled.png").convert_alpha(),
+               pygame.image.load("up.png").convert_alpha()]
+skyline_image = pygame.image.load("background.png").convert()
+ground_image = pygame.image.load("ground.png").convert()
+top_pipe_image = pygame.image.load("pipe_top.png").convert_alpha()
+bottom_pipe_image = pygame.image.load("pipe_bottom.png").convert_alpha()
+game_over_image = pygame.image.load("game_over.png").convert_alpha()
+start_image = pygame.image.load("start.png").convert_alpha()
 
 # Game
 bird_start_position = (100, 250)
